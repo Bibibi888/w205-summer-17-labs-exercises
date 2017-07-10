@@ -3,8 +3,11 @@ What hospitals are models of high-quality care? That is, which hospitals have
 the most consistently high scores for a variety of procedures.
 
 Methodology:
-In order to solve this question, I first devised a list of critical measures which are within scope and suitable for 
-this assignment. The data sources span across three CSV files:
+In order to solve this question, I aimed to combine existing data to capture
+efficiency, effectiveness, complication rates, infection rates, and timeliness
+for a final quality metric. To fit this defintion, I devised a list of critical 
+measures which are within scope and suitable for 
+this assignment. The data sources span across four CSV files:
 	
 	- Complications (Hospital)
 	- Infections (Hospital)
@@ -36,5 +39,11 @@ SAINT THOMAS WEST HOSPITAL				0.3121656804733728	6.623158349360979
 WAKEMED, RALEIGH CAMPUS					0.3127056213017752	6.4858381638667035
 
 Interpretation:
-With the exception of Mayhill Hospital, all of the listed hospitals appear to be fairly large hospitals, many of which touting a 
+With the exception of Mayhill Hospital, all of the listed hospitals appear to be fairly large hospitals, many of which tout a 
 variety of awards.
+
+While it is not immediately apparent from the list of hospitals provided, we
+are seeing a large degree of regional gradiation among hospitals, especially
+on a state-by-state basis. This is a bit interesting and reflects that,
+to some degree, health care quality is possibly tied to state quality as well
+as other regional influences.

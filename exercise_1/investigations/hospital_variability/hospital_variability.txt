@@ -19,5 +19,11 @@ Heart failure (HF) 30-Day Readmission Rate	READM_30_HF	1.5775597422518515
 Heart failure (HF) 30-Day Mortality Rate	MORT_30_HF	1.4220139931224614
 
 Interpretation:
-Primarily, the largest difference between hospitals in the degree of imaging employed. After this, we find a 
+Primarily, the largest difference between hospitals is the degree of imaging employed. After this, we find a 
 large degree of variability in mortality rates for pneumonia and heart failure.
+
+Why we are seeing this variation is not necessarily directly  tied to quality
+of care. Influences not immediately apparent in the data set such as access to
+imaging technology or local environmental influences could be the source of
+a some variance. More data is required to determine why we are seeing this
+variation in procedures between hospitals.

@@ -5,7 +5,7 @@ CREATE EXTERNAL TABLE complications (pid INT, hospital STRING, addr STRING, city
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/complications';
+LOCATION '/user/w205/ex_1/complications';
 
 
 
@@ -16,7 +16,7 @@ CREATE EXTERNAL TABLE infections (pid INT, hospital STRING, addr STRING, city ST
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/infections';
+LOCATION '/user/w205/ex_1/infections';
 
 
 
@@ -27,7 +27,7 @@ CREATE EXTERNAL TABLE survey (pid INT, hospital STRING, addr STRING, city STRING
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/survey';
+LOCATION '/user/w205/ex_1/survey';
 
 
 
@@ -38,7 +38,7 @@ CREATE EXTERNAL TABLE timely_and_effective_care (pid INT, hospital STRING, addr 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/timely_and_effective_care';
+LOCATION '/user/w205/ex_1/timely_and_effective_care';
 
 -- Payments - Hospital
 
@@ -47,7 +47,7 @@ CREATE EXTERNAL TABLE payments (pid INT, hospital STRING, addr STRING, city STRI
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/payments';
+LOCATION '/user/w205/ex_1/payments';
 
 
 
@@ -59,7 +59,7 @@ CREATE EXTERNAL TABLE readmissions (pid INT, hospital STRING, addr STRING, city 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/readmissions';
+LOCATION '/user/w205/ex_1/readmissions';
 
 -- Outpatient_Imaging_Efficiency_-_Hospital.csv 
 
@@ -68,4 +68,4 @@ CREATE EXTERNAL TABLE outpatient_imaging (pid INT, hospital STRING, addr STRING,
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES (
 "separatorChar" = ",", "quoteChar" = '"', "escapeChar" = '\\' )
 STORED AS TEXTFILE
-LOCATION '/user/root/ex_1/outpatient_imaging';
+LOCATION '/user/w205/ex_1/outpatient_imaging';

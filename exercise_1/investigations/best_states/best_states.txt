@@ -2,8 +2,8 @@ Question:
 What states are models of high-quality care?
 
 Methodology:
-For this, we essentially took the query from best_hospitals and joined it with the hospitals table to retrieve state data.
-Using this, we aggregated by state on top of the hospitals results to get overall state results.
+For this question, I essentially took the query from best_hospitals and joined it with the hospitals table to retrieve state data.
+Using the resulting table, I then aggregated by state on top of the hospitals results to get overall state results.
 
 Results:
 
