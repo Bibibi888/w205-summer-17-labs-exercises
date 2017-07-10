@@ -1,0 +1,40 @@
+Question:
+What hospitals are models of high-quality care? That is, which hospitals have
+the most consistently high scores for a variety of procedures.
+
+Methodology:
+In order to solve this question, I first devised a list of critical measures which are within scope and suitable for 
+this assignment. The data sources span across three CSV files:
+	
+	- Complications (Hospital)
+	- Infections (Hospital)
+	- Readmissions and Deaths (Hospital)
+	- Outpatient Imaging (Hospital)
+
+From the above CSV files, I created a list of measures which appeared to be properly standardized or otherwise applicable
+to this assignment.
+
+Originally, I had planned to include timely and effective care. However, due to specific issues with the data set, 
+there was a real risk of improperly transforming the data and introducing unnecessary error.
+
+From here, I aggregated each measure's score by hospital and divided the resulting average by the number of measures
+the hospital participated in. As a side effect, this methodology will mildly punish hospitals which did not participate in a large
+number of measures.
+
+Results:
+
+Hospital Name						Average 		Standard Deviation
+MAYHILL HOSPITAL					0.259			0.0
+BAYLOR UNIVERSITY MEDICAL CENTER			0.29992159763313614	6.417704588934302
+VISTA MEDICAL CENTER WEST				0.302			0.0
+ST ALPHONSUS REGIONAL MEDICAL CENTER			0.30201775147929	6.4685923996752255
+LANCASTER GENERAL HOSPITAL				0.3040014792899408	6.112358423597287
+CHANDLER REGIONAL MEDICAL CENTER			0.3051331360946746	6.861536732062562
+BAYFRONT HEALTH - ST PETERSBURG				0.3120103550295858	6.934573768487269
+SUTTER GENERAL HOSPITAL					0.3120576		6.946734202947455
+SAINT THOMAS WEST HOSPITAL				0.3121656804733728	6.623158349360979
+WAKEMED, RALEIGH CAMPUS					0.3127056213017752	6.4858381638667035
+
+Interpretation:
+With the exception of Mayhill Hospital, all of the listed hospitals appear to be fairly large hospitals, many of which touting a 
+variety of awards.

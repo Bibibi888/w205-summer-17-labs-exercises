@@ -1,0 +1,20 @@
+Question:
+  Are average scores for hospital quality or procedural variability correlated with patient survey responses?
+
+Methodology:
+For this, I essentially correlated the results of the best_states and variability queries with the average
+HCAHPS score.
+
+Results:
+
+Average score vs. HCAHPS: 0.27262944074435486
+Standard deviation vs. HCAHPS: 0.016954508936351448
+
+Interpretation:
+Here we see a small but decent correlation with our average custom metric vs. the hcahps results.
+We do not see any correlation with variability and the hcahps results, which is to be expected.
+
+While we do not have data readily available, logically speaking, people would be likely favor
+hospitals which specialize in certain procedures if given the chance. This could be a factor in 
+why the correlation exists. Likewise, well run hospitals might tend to have better scores across the board
+on average, which could explain the correlation.
