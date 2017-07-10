@@ -4,5 +4,5 @@ SELECT hospital_name, avg(score) / count(*) AS avg_weighted_score  FROM procedur
 ) AS hp_rank 
 JOIN hospitals AS hp ON hp_rank.hospital_name = hp.hospital_name 
 GROUP BY hp.state 
-ORDER BY state_avg_weighted_score DESC
+ORDER BY state_avg_weighted_score ASC
 LIMIT 10;

@@ -1,0 +1,26 @@
+Question:
+What states are models of high-quality care?
+
+Methodology:
+For this, we essentially took the query from best_hospitals and joined it with the hospitals table to retrieve state data.
+Using this, we aggregated by state on top of the hospitals results to get overall state results.
+
+Results:
+
+NJ	0.5424622418608398
+MD	0.5726791093692771
+CT	0.6564986397539416
+RI	0.6794075452372815
+NH	0.725862126046745
+VA	0.7294018284045526
+DC	0.7491428628147321
+FL	0.8416171500991299
+HI	0.8640036144133342
+ME	0.8742785942035245
+
+Interpretation:
+Typically, we're seeing north eastern states as models for hospital quality with New Jersey, Maryland and Connecticut ranking
+as the best performing states. These are quite interesting findings- we see an extremely strong regional trend for the north east.
+Why this is the case is not immediately clear. It could be due to education levels, income, urbanisation, common regional policies,
+or a myriad of other factors. More investigation is required to concretely determine why the north eastern states typically
+outperform other states and other regions of the country.
